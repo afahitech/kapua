@@ -24,7 +24,7 @@ services:
   broker:
     image: kapua/kapua-broker:${IMAGE_VERSION}
     expose:
-      - 1893
+      - 5672
     ports:
       - 1883:1883
       - 8883:8883
